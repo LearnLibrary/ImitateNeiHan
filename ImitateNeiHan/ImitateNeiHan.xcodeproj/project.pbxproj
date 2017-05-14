@@ -12,7 +12,7 @@
 		6C7099431EC81BFB0096527C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7099411EC81BFB0096527C /* Main.storyboard */; };
 		6C7099451EC81BFB0096527C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7099441EC81BFB0096527C /* Assets.xcassets */; };
 		6C7099481EC81BFB0096527C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7099461EC81BFB0096527C /* LaunchScreen.storyboard */; };
-		6CA7D16B1EC8837C002B7777 /* INViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D16A1EC8837C002B7777 /* INViewController.m */; };
+		6CA7D1781EC8916B002B7777 /* INHListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D1771EC8916B002B7777 /* INHListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		6C7099441EC81BFB0096527C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C7099471EC81BFB0096527C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C7099491EC81BFB0096527C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CA7D1691EC8837C002B7777 /* INViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INViewController.h; sourceTree = "<group>"; };
-		6CA7D16A1EC8837C002B7777 /* INViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INViewController.m; sourceTree = "<group>"; };
+		6CA7D1761EC8916B002B7777 /* INHListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INHListViewController.h; sourceTree = "<group>"; };
+		6CA7D1771EC8916B002B7777 /* INHListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INHListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,11 @@
 		6C7099371EC81BFB0096527C /* ImitateNeiHan */ = {
 			isa = PBXGroup;
 			children = (
+				6CA7D1711EC890F2002B7777 /* View */,
+				6CA7D16D1EC890EB002B7777 /* Controller */,
+				6CA7D16F1EC890EB002B7777 /* Model */,
 				6C70993B1EC81BFB0096527C /* AppDelegate.h */,
 				6C70993C1EC81BFB0096527C /* AppDelegate.m */,
-				6CA7D1691EC8837C002B7777 /* INViewController.h */,
-				6CA7D16A1EC8837C002B7777 /* INViewController.m */,
 				6C7099411EC81BFB0096527C /* Main.storyboard */,
 				6C7099441EC81BFB0096527C /* Assets.xcassets */,
 				6C7099461EC81BFB0096527C /* LaunchScreen.storyboard */,
@@ -77,6 +78,53 @@
 				6C7099391EC81BFB0096527C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA7D16D1EC890EB002B7777 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CA7D16E1EC890EB002B7777 /* HomeModule */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CA7D16E1EC890EB002B7777 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				6CA7D1761EC8916B002B7777 /* INHListViewController.h */,
+				6CA7D1771EC8916B002B7777 /* INHListViewController.m */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		6CA7D16F1EC890EB002B7777 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CA7D1701EC890EB002B7777 /* HomeModule */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA7D1701EC890EB002B7777 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		6CA7D1711EC890F2002B7777 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA7D1721EC890F2002B7777 /* HomeModule */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CA7D1721EC890F2002B7777 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +201,7 @@
 			files = (
 				6C70993D1EC81BFB0096527C /* AppDelegate.m in Sources */,
 				6C70993A1EC81BFB0096527C /* main.m in Sources */,
-				6CA7D16B1EC8837C002B7777 /* INViewController.m in Sources */,
+				6CA7D1781EC8916B002B7777 /* INHListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

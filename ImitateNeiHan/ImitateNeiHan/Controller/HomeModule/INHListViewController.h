@@ -1,5 +1,5 @@
 //
-//  INViewController.h
+//  INHListViewController.h
 //  ImitateNeiHan
 //
 //  Created by 黄河 on 2017/5/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface INViewController : UIViewController
+@interface INHListViewController : UIViewController
 
 @end

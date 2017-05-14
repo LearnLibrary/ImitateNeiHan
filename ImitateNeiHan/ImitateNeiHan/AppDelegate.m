@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "INViewController.h"
+#import "INHListViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    INViewController *inViewController = [[INViewController alloc] init];
+    INHListViewController *inViewController = [[INHListViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:inViewController];
     [UIApplication sharedApplication].delegate.window.rootViewController = nav;
     [nav setToolbarHidden:NO];

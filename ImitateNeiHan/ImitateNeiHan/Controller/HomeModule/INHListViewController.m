@@ -1,23 +1,22 @@
 //
-//  INViewController.m
+//  INHListViewController.m
 //  ImitateNeiHan
 //
 //  Created by 黄河 on 2017/5/14.
 //  Copyright © 2017年 LearnLibrary. All rights reserved.
 //
 
-#import "INViewController.h"
+#import "INHListViewController.h"
 
-@interface INViewController ()
+@interface INHListViewController ()
 
 @end
 
-@implementation INViewController
+@implementation INHListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
