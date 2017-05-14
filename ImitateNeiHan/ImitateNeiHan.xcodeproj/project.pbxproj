@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		6C70993A1EC81BFB0096527C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7099391EC81BFB0096527C /* main.m */; };
 		6C70993D1EC81BFB0096527C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C70993C1EC81BFB0096527C /* AppDelegate.m */; };
-		6C7099401EC81BFB0096527C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C70993F1EC81BFB0096527C /* ViewController.m */; };
 		6C7099431EC81BFB0096527C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7099411EC81BFB0096527C /* Main.storyboard */; };
 		6C7099451EC81BFB0096527C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7099441EC81BFB0096527C /* Assets.xcassets */; };
 		6C7099481EC81BFB0096527C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7099461EC81BFB0096527C /* LaunchScreen.storyboard */; };
+		6CA7D16B1EC8837C002B7777 /* INViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D16A1EC8837C002B7777 /* INViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		6C7099391EC81BFB0096527C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C70993B1EC81BFB0096527C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C70993C1EC81BFB0096527C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C70993E1EC81BFB0096527C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C70993F1EC81BFB0096527C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C7099421EC81BFB0096527C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C7099441EC81BFB0096527C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C7099471EC81BFB0096527C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C7099491EC81BFB0096527C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA7D1691EC8837C002B7777 /* INViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INViewController.h; sourceTree = "<group>"; };
+		6CA7D16A1EC8837C002B7777 /* INViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				6C70993B1EC81BFB0096527C /* AppDelegate.h */,
 				6C70993C1EC81BFB0096527C /* AppDelegate.m */,
-				6C70993E1EC81BFB0096527C /* ViewController.h */,
-				6C70993F1EC81BFB0096527C /* ViewController.m */,
+				6CA7D1691EC8837C002B7777 /* INViewController.h */,
+				6CA7D16A1EC8837C002B7777 /* INViewController.m */,
 				6C7099411EC81BFB0096527C /* Main.storyboard */,
 				6C7099441EC81BFB0096527C /* Assets.xcassets */,
 				6C7099461EC81BFB0096527C /* LaunchScreen.storyboard */,
@@ -151,9 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C7099401EC81BFB0096527C /* ViewController.m in Sources */,
 				6C70993D1EC81BFB0096527C /* AppDelegate.m in Sources */,
 				6C70993A1EC81BFB0096527C /* main.m in Sources */,
+				6CA7D16B1EC8837C002B7777 /* INViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +310,7 @@
 				6C70994E1EC81BFB0096527C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

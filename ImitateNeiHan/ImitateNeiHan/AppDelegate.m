@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "INViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    INViewController *inViewController = [[INViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:inViewController];
+    [UIApplication sharedApplication].delegate.window.rootViewController = nav;
+    [nav setToolbarHidden:NO];
+    UIBarButtonItem *item1 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:nil action:nil];
+    nav.toolbarItems = @[item1];
     return YES;
 }
 
