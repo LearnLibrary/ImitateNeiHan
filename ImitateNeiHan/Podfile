@@ -1,0 +1,7 @@
+source 'https://github.com/LearnLibrary/ImitateNeiHan.git'
+
+platform :ios, '8.0'
+inhibit_all_warnings! 
+target 'ImitateNeiHan' do
+
+end
